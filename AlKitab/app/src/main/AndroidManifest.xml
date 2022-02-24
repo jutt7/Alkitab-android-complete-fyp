@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.AWH.alkitab">
+
+    <queries>
+        <package android:name="com.google.android.googlequicksearchbox"/>
+    </queries>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlKitab">
+        <activity
+            android:name=".Tafseer.SurahAleImran"
+            android:exported="false" />
+        <activity
+            android:name=".Tafseer.SurahAlBaqarah"
+            android:exported="false" />
+        <activity
+            android:name=".Tafseer.SurahFaatihah"
+            android:exported="false" />
+        <activity
+            android:name=".Tafseer.TafseerSelect"
+            android:exported="false" />
+        <activity
+            android:name=".Learning.Quiz.Quiz_main"
+            android:parentActivityName=".Learning.Quiz.Quiz_select" />
+        <activity
+            android:name=".Learning.Quiz.Quiz_select"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Evaluation.words_Evaluate"
+            android:parentActivityName=".Evaluation.eva_words" />
+        <activity
+            android:name=".Evaluation.eva_words"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Evaluation.ayat_Evaluate"
+            android:parentActivityName=".Evaluation.eva_Ayats" />
+        <activity
+            android:name=".Evaluation.eva_Ayats"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Evaluation.Evaluate"
+            android:parentActivityName=".Evaluation.eva_Chapter1" />
+        <activity android:name=".Test.ApiActivity" />
+        <activity
+            android:name=".Evaluation.eva_Chapter1"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Extra.PrayerTime"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Extra.prayerTiming"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Learning.Kalima.sixth_kalima"
+            android:parentActivityName=".Learning.Kalima.kalima_selection" />
+        <activity
+            android:name=".Learning.Kalima.fifth_kalima"
+            android:parentActivityName=".Learning.Kalima.kalima_selection" />
+        <activity
+            android:name=".Learning.Kalima.fourth_kalima"
+            android:parentActivityName=".Learning.Kalima.kalima_selection" />
+        <activity
+            android:name=".Learning.Kalima.third_kalima"
+            android:parentActivityName=".Learning.Kalima.kalima_selection" />
+        <activity
+            android:name=".Learning.Kalima.second_kalima"
+            android:parentActivityName=".Learning.Kalima.second_kalima" />
+        <activity
+            android:name=".Learning.Kalima.first_kalima"
+            android:parentActivityName=".Learning.Kalima.kalima_selection" />
+        <activity
+            android:name=".Learning.Kalima.kalima_selection"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Extra.Tajweed.silent_letters_tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.qalkalah_tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.ghunnah_tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.shadd_tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.hamza_tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.leen_letters_tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.maddah_letters_tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.tajweed_standing_fathaha"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.tajweed_Jazm"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.tajweed_movements"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.tajweed_throatLetters"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Profile.aboutUs"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Extra.Tajweed.Bold_Sound_Letters_Tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.Similar_Sound_Letters_Tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.Pronunciation_of_Letters_Tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.Recognizing_The_Dots_Tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.Arabic_Alphabets_Tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Qari.qari_selection"
+            android:parentActivityName=".Learning.Learn_select" />
+        <activity
+            android:name=".Qari.qari_select"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Learning.learn_Chapter9"
+            android:parentActivityName=".Qari.qari_selection" />
+        <activity
+            android:name=".Learning.learn_Chapter8"
+            android:parentActivityName=".Qari.qari_selection" />
+        <activity
+            android:name=".Learning.learn_Chapter7"
+            android:parentActivityName=".Qari.qari_selection" />
+        <activity
+            android:name=".Learning.learn_Chapter6"
+            android:parentActivityName=".Qari.qari_selection" />
+        <activity
+            android:name=".Learning.learn_Chapter5"
+            android:parentActivityName=".Qari.qari_selection" />
+        <activity
+            android:name=".Learning.learn_Chapter4"
+            android:parentActivityName=".Qari.qari_selection" />
+        <activity
+            android:name=".Learning.learn_Chapter3"
+            android:parentActivityName=".Qari.qari_selection" />
+        <activity
+            android:name=".Learning.learn_Chapter2"
+            android:parentActivityName=".Qari.qari_selection" />
+        <activity
+            android:name=".Learning.learn_Chapter1"
+            android:parentActivityName=".Qari.qari_selection" />
+        <activity
+            android:name=".Extra.Tajweed.Etiquettes_Tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.Introduction_Tajweed"
+            android:parentActivityName=".Extra.Tajweed.TajweedRules" />
+        <activity
+            android:name=".Extra.Tajweed.TajweedRules"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Extra.hijriCalender"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Extra.Qibla"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".Learning.Prayer.prayer"
+            android:parentActivityName=".Learning.Prayer.prayer_select" />
+        <activity
+            android:name=".Learning.Prayer.prayer_select"
+            android:parentActivityName=".Learning.Learn_select" />
+        <activity android:name=".bottomNav" />
+        <activity
+            android:name=".Qari.Qari_chapter9"
+            android:parentActivityName=".Qari.qari_select" />
+        <activity
+            android:name=".Qari.Qari_chapter8"
+            android:parentActivityName=".Qari.qari_select" />
+        <activity
+            android:name=".Qari.Qari_chapter7"
+            android:parentActivityName=".Qari.qari_select" />
+        <activity
+            android:name=".Qari.Qari_chapter6"
+            android:parentActivityName=".Qari.qari_select" />
+        <activity
+            android:name=".Qari.Qari_chapter5"
+            android:parentActivityName=".Qari.qari_select" />
+        <activity
+            android:name=".Qari.Qari_chapter2"
+            android:parentActivityName=".Qari.qari_select" />
+        <activity
+            android:name=".Qari.Qari_chapter4"
+            android:parentActivityName=".Qari.qari_select" />
+        <activity
+            android:name=".Qari.Qari_chapter3"
+            android:parentActivityName=".Qari.qari_select" />
+        <activity
+            android:name=".Learning.Learn_select"
+            android:parentActivityName=".bottomNav" />
+        <activity
+            android:name=".splashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Qari.Record"
+            android:parentActivityName=".Qari.Qari_chapter1" />
+        <activity android:name=".Qari.Recorder" />
+        <activity
+            android:name=".Login.ForgetPassword"
+            android:parentActivityName=".Login.Login" />
+        <activity
+            android:name=".Login.SignUp"
+            android:parentActivityName=".Login.Login" />
+        <activity
+            android:name=".Login.Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Qari.Qari_chapter1"
+            android:parentActivityName=".Qari.qari_select" />
+    </application>
+
+</manifest>
